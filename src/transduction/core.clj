@@ -15,9 +15,6 @@
 ;; How => Higher Order Functions, duh! (Functions that return functions).
 
 ;; Basic example
-(def lazy-evens-inc ())
-
-
 (def all-evens-inc-x-form (comp (filter even?) (map inc)))
 
 
